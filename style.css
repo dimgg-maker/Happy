@@ -27,12 +27,13 @@ footer {
 }
 
 body {
-    background-image: url("bg.jpg")
-    background-size: cover;
-    background-position: center;
-    background-repreat: no-repeat;
     font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
-    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #fa03a86b;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;
 }
